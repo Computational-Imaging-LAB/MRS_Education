@@ -1,0 +1,34 @@
+#!/bin/sh
+
+
+os_bit=`getconf LONG_BIT`
+
+if [[ $os_bit == *"64"* ]]; then
+  work_os="64"
+
+else
+  work_os="32"
+fi
+
+
+if [[ -f lcm-${work_os}.tar ]];then
+    
+    echo "lcm-${work_os}.tar exists on your filesystem."
+    echo "Using cached tar file.."
+
+else
+
+    wget "http://s-provencher.com/pub/LCModel/programs/lcm-${work_os}.tar"
+
+fi
+
+tar -xvf lcm-${work_os}.tar
+PATH="$PATH:$HOME/.lcmodel/"
+export $PATH >> ~/.bashrc
+
+sed -i 's/rm  -f  lcm-$PLATFORM.tar/echo "Deleting passed"/' install-lcmodel
+./install-lcmodel
+
+
+
+exit 0
