@@ -33,9 +33,35 @@ Now you can easily call lcmgui
 *There are three ways to install on Windows. If you are lazy -as me- you can use WSL2. If you prefer virtual machine you can use windows-install.bat file to install virtualbox and other things without harming your comfort. Then few steps by your own*
 *There is a third way which is to downloading all the required tools by yourself manually. But forget about it don't do please.*
 
-The Second Way Virtual Box powered Linux
+**The Second Way Virtual Box powered Linux**
+
 For the sake of the course we created all-set up iso file to use lcmodel on virtual box. First of all download the zip file of this repo. Unzip it and double-click to windows-install.bat. It will download the iso file and the VirtualBox and run the setup. Then follow the steps showed on the following GIF.  
 
 ![Alt Text](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/VBsetup.gif)
+
+##
+
+After setting up the Virtual Box you should load iso file into virtualbox. Find the Virtual Box in your computer it should create a shortcut file on the desktop. Double-click it. 
+After opening the VirtualBox get a deep breath and calm down you almost there!
+
+Push the "File Button-(Dosya)" and then there will be drop-down menu opened like showed in the following screenshot. Select the "Import-(İçe Aktar)-The orange arrow". 
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/8.png?raw=true)
+
+After that push the folder icon to browse ovf file that windows-install.bat downloaded for you. It is MRS-CIL.ovf which is shown in the second ss. After push "Next-İleri" button. Then push "Import-İçe Aktar" button which is shown in following third ss. If everything is ok there will be a pop-up like in fourth ss for importing. 
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/9.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/11.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/12.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/13.png?raw=true)
+
+
+
+
+
+
+
+
+
+
+
 
 
