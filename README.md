@@ -53,8 +53,12 @@ After that push the folder icon to browse ovf file that windows-install.bat down
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/12.png?raw=true)
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/13.png?raw=true)
 
+Yowwzaa! You made it. Now only thing is starting the VM. Open VirtualBox and start the machine like in the following by pressing "Start-Başlat- Yellow arrow". After pressing a window will open wait until that window becomes like the following second ss. 
 
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/14.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/15.png?raw=true)
 
+Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T then type lcmgui on the terminal opened. 
 
 
 
