@@ -23,8 +23,8 @@ else
 fi
 
 tar -xvf lcm-${work_os}.tar
-PATH="$PATH:$HOME/.lcmodel/"
-export $PATH >> ~/.bashrc
+#PATH="$PATH:$HOME/.lcmodel/"
+#export $PATH >> ~/.bashrc
 
 sed -i 's/rm  -f  lcm-$PLATFORM.tar/echo "Deleting passed"/' install-lcmodel
 ./install-lcmodel
