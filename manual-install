@@ -28,7 +28,6 @@ tar -xvf lcm-${work_os}.tar
 
 sed -i 's/rm  -f  lcm-$PLATFORM.tar/echo "Deleting passed"/' install-lcmodel
 ./install-lcmodel
-touch  $HOME/.lcmodel/license
 
 
 exit 0
