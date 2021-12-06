@@ -21,6 +21,7 @@ Then exit from that GUI after showing the plots.
 We will set up PATH variable to reach lcmgui anywhere we want! Cool huh?
 
 `PATH="$PATH:$HOME/.lcmodel/"`
+
 `touch  $HOME/.lcmodel/license`
 
 Yoowwza! Everything is all set-up.
