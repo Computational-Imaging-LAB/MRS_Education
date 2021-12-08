@@ -8,7 +8,7 @@ echo "-----------------------------------"
 
 echo "***********************************"
 echo "VirtualBox image downloading has started"
-curl "https://bounedutr-my.sharepoint.com/:u:/g/personal/abdullah_bas_boun_edu_tr/Edkpj8CNFthFsHEjeckH54wBjjbkUr-hCWSG9RXnqQVw3Q?e=HYz6ZK&download=1" -o mrs_cil.rar
+curl "https://bounedutr-my.sharepoint.com/personal/abdullah_bas_boun_edu_tr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fabdullah%5Fbas%5Fboun%5Fedu%5Ftr%2FDocuments%2Fvirtualbox%5Fvespa%2Erar&parent=%2Fpersonal%2Fabdullah%5Fbas%5Fboun%5Fedu%5Ftr%2FDocuments&download=1" -o mrs_cil.rar
 
 echo "VirtualBox image has been downloaded"
 unrar x  mrs_cil.rar
