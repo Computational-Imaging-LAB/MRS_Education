@@ -78,6 +78,12 @@ If you have homebrew installed then type the following;
 `bash mac-install.sh`
 
 
+After that push the folder icon to browse ovf file that windows-install.bat downloaded for you. It is MRS-CIL.ovf which is shown in the second ss. After push "Next-İleri" button. Then push "Import-İçe Aktar" button which is shown in following third ss. If everything is ok there will be a pop-up like in fourth ss for importing. 
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/9.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/11.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/12.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/13.png?raw=true)
+
 It will install and open the VirtualBox. After opening the VirtualBox, you must insert the ovf file that downloaded by script.   
 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/14.png?raw=true)
