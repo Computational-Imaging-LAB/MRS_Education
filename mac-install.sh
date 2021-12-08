@@ -8,7 +8,7 @@ echo "-----------------------------------"
 
 echo "***********************************"
 echo "VirtualBox image downloading has started"
-wget -q --show-progress "https://bounedutr-my.sharepoint.com/:u:/g/personal/abdullah_bas_boun_edu_tr/EbJFMbwftAlMlGzVIEOLxxEBaw_QRVg359QGtRqsafl6Lw?e=gZa0g8&download=1" -o mrs_cil.rar
+wget -q --show-progress "https://bounedutr-my.sharepoint.com/:u:/g/personal/abdullah_bas_boun_edu_tr/Edkpj8CNFthFsHEjeckH54wBjjbkUr-hCWSG9RXnqQVw3Q?e=523wHz&download=1" -o mrs_cil.rar
 
 echo "VirtualBox image has been downloaded"
 unrar x  mrs_cil.rar
