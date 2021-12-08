@@ -71,6 +71,8 @@ If you have homebrew installed then type the following;
 
 `brew install git`
 
+`brew install rar`
+
 `git clone https://github.com/Computational-Imaging-LAB/MRS_Education.git`
 
 `cd MRS_Education`
