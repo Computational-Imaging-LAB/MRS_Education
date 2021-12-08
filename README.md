@@ -62,9 +62,28 @@ Yowwzaa! You made it. Now only thing is starting the VM. Open VirtualBox and sta
 
 Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T then type lcmgui on the terminal opened. 
 
+# <h1>macOS  </h1>
 
 
+*Here is the final OS. It will be easy don't worry. Firstly we will start by cloning the repo.*
 
+If you have homebrew installed then type the following;
+
+`brew install git`
+
+`git clone https://github.com/Computational-Imaging-LAB/MRS_Education.git`
+
+`cd MRS_Education`
+
+`bash mac-install.sh`
+
+
+It will install and open the VirtualBox. After opening the VirtualBox, you must insert the ovf file that downloaded by script.   
+
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/14.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/15.PNG?raw=true)
+
+Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T then type lcmgui on the terminal opened. 
 
 
 
