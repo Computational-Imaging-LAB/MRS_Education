@@ -1,5 +1,5 @@
-brew install rar
 mkdir virtualbox
+cd virtualbox
 curl https://download.virtualbox.org/virtualbox/6.1.30/VirtualBox-6.1.30-148432$
 
 echo "-----------------------------------"
