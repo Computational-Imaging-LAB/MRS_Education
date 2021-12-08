@@ -1,6 +1,6 @@
 mkdir virtualbox
 cd virtualbox
-curl https://download.virtualbox.org/virtualbox/6.1.30/VirtualBox-6.1.30-148432$
+curl https://download.virtualbox.org/virtualbox/6.1.30/VirtualBox-6.1.30-148432-OSX.dmg
 
 echo "-----------------------------------"
 echo "VirtualBox files have been downloaded"
@@ -8,7 +8,7 @@ echo "-----------------------------------"
 
 echo "***********************************"
 echo "VirtualBox image downloading has started"
-curl "https://bounedutr-my.sharepoint.com/:u:/g/personal/abdullah_bas_boun_edu_$
+curl "https://bounedutr-my.sharepoint.com/:u:/g/personal/abdullah_bas_boun_edu_tr/Edkpj8CNFthFsHEjeckH54wBjjbkUr-hCWSG9RXnqQVw3Q?e=HYz6ZK&download=1"
 
 echo "VirtualBox image has been downloaded"
 unrar x  mrs_cil.rar
