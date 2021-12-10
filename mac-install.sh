@@ -18,7 +18,7 @@ else
 fi
 
 echo "VirtualBox image has been downloaded"
-unzip x  mrs_cil
+unzip  mrs_cil
 
 echo "-----------------------------------"
 echo "VirtualBox image has been unzipped"
