@@ -81,6 +81,9 @@ If you have homebrew installed then type the following;
 
 
 After that push the folder icon to browse ovf file that windows-install.bat downloaded for you. It is MRS-CIL.ovf which is shown in the second ss. After push "Next-İleri" button. Then push "Import-İçe Aktar" button which is shown in following third ss. If everything is ok there will be a pop-up like in fourth ss for importing. 
+
+
+
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/9.png?raw=true)
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/11.png?raw=true)
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/12.png?raw=true)
@@ -92,6 +95,20 @@ It will install and open the VirtualBox. After opening the VirtualBox, you must 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/15.PNG?raw=true)
 
 Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T then type lcmgui on the terminal opened. 
+
+
+# IMPORTANT 
+
+After making everything right you can face some privacy issues -because it is MAC-. For example if you face an error -probably you will- when you try to start the virtual machine, named "NS_ERROR_FAILURE (0x80004005)" it is because of privacy settings. I opened an issue for that. If you cant solve it by the followings please write on the issue that created for that error. You should open a menu clicking the apple logo at top left then click *System Preferences*>*Security and Privacy* or open a terminal and type 
+
+`open "x-apple.systempreferences:com.apple.preference.security?Privacy"` 
+
+it will navigate you to window that we want to go. Which is 
+
+
+
+
+
 
 
 
