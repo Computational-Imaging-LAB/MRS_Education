@@ -78,9 +78,9 @@ Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T
 
 If you have homebrew installed then type the following;
 
-`brew install git`
+If you dont have git please install it first.
 
-`brew install rar`
+`brew install git` 
 
 `git clone https://github.com/Computational-Imaging-LAB/MRS_Education.git`
 
