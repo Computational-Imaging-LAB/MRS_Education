@@ -1,7 +1,16 @@
 # MRS Education
 
 # We provide installation guides of LCModel for macOS, Linux and Windows. 
-# <h1>Linux </h1> 
+
+# Installations
+
+   * [Linux Installation](#linux)
+   * [Windows Installation](#windows)
+   * [macOS Installation](#macos)
+
+
+
+## <h1>Linux</h1> <a name="linux"></a>
 **Lets start with the easiest one Linux!**
 ##
 *Firstly open a new terminal. Then copy-paste the commands highlighted below respectively.*
@@ -30,7 +39,7 @@ Now you can easily call lcmgui
 `lcmgui`
 
 
-# <h1>Windows </h1>
+## <h1>Windows</h1> <a name="windows"></a>
 
 *There are three ways to install on Windows. If you are lazy -as me- you can use WSL2. If you prefer virtual machine you can use windows-install.bat file to install virtualbox and other things without harming your comfort. Then few steps by your own*
 *There is a third way which is to downloading all the required tools by yourself manually. But forget about it don't do please.*
@@ -62,7 +71,7 @@ Yowwzaa! You made it. Now only thing is starting the VM. Open VirtualBox and sta
 
 Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T then type lcmgui on the terminal opened. 
 
-# <h1>macOS  </h1>
+# <h1>macOS</h1> <a name="macos"></a>
 
 
 *Here is the final OS. It will be easy don't worry. Firstly we will start by cloning the repo.*
