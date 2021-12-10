@@ -8,10 +8,17 @@ echo "-----------------------------------"
 
 echo "***********************************"
 echo "VirtualBox image downloading has started"
-wget -q --show-progress "https://bounedutr-my.sharepoint.com/:u:/g/personal/abdullah_bas_boun_edu_tr/EXNeyaVOjqNFjEmA7NIWWGsBAu3lOBcGNzzmJojlURUZWQ?e=3XWHTA&download=1" -o mrs_cil.zip
+FILE="mrs_cil.zip"
+
+if test -f "$FILE"; then
+    echo "$FILE exists. Download has been passed. What a luck!"
+elif
+    echo "Virtual machine files couldn't find. Download is started"
+    wget -q --show-progress "https://bounedutr-my.sharepoint.com/:u:/g/personal/abdullah_bas_boun_edu_tr/EXNeyaVOjqNFjEmA7NIWWGsBAu3lOBcGNzzmJojlURUZWQ?e=3XWHTA&download=1" -O mrs_cil.zip
+fi
 
 echo "VirtualBox image has been downloaded"
-unzip x  mrs_cil.zip
+unzip x  mrs_cil
 
 echo "-----------------------------------"
 echo "VirtualBox image has been unzipped"
