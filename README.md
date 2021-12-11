@@ -119,9 +119,6 @@ After doing all those steps it will import -roughly 5-10 mins- VM into VirtualBo
 
 Second ss
 
-||
-\/
-
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/8.png?raw=true)
 
 Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T then type lcmgui on the terminal opened. 
@@ -148,20 +145,22 @@ You can see another error while opening the VM which is the network error but do
 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/network_error.png?raw=true)
 
-Ok it is all set now. Easy peasy! Ok may be not but beleive this was the easiest way to do it. 
+Ok it is all set now. Easy peasy! Ok may be not but beleive me this was the easiest way to do it. 
 
 
 # Questions
 
-If you have any issues or questions please open an issue to ask. If it is not an issue then you can find me from the email below. 
+If you have any issues or questions please open an issue to ask. If it is not an issue then you can find me from the email below. Dont hesitate to ask anything.
 
 Abdullah Baş
+
 abdullah.bas@boun.edu.tr
 
 
 Thanks for the contributions to installation part of requirements of this MRS Course.
 
 Gökçe Hale Hatay
+
 Buse Buz Yağız
 
 
