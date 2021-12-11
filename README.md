@@ -97,7 +97,7 @@ After that push the folder icon to browse ovf file that windows-install.bat down
 
 Step by step. Firstly, after our script finishes its job -nearly 3 hour on an average network- you will see a GUI of VirtualBox like the following:
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs_ss/1.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/1.png?raw=true)
 
 After that you should import our VM into VirtualBox. You can find and add it as follows:
 
