@@ -76,11 +76,15 @@ Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T
 
 *Here is the final OS. It will be easy don't worry. Firstly we will start by cloning the repo.*
 
-If you have homebrew installed then type the following;
+If you dont have homebrew installed then type the following;
 
-If you dont have git please install it first.
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+After that we need git and wget to run our script. Hence install them also. 
 
 `brew install git` 
+
+`brew install wget`
 
 `git clone https://github.com/Computational-Imaging-LAB/MRS_Education.git`
 
@@ -91,28 +95,70 @@ If you dont have git please install it first.
 
 After that push the folder icon to browse ovf file that windows-install.bat downloaded for you. It is MRS-CIL.ovf which is shown in the second ss. After push "Next-İleri" button. Then push "Import-İçe Aktar" button which is shown in following third ss. If everything is ok there will be a pop-up like in fourth ss for importing. 
 
+Step by step. Firstly, after our script finishes its job -nearly 3 hour on an average network- you will see a GUI of VirtualBox like the following:
+
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs_ss/1.png?raw=true)
+
+After that you should import our VM into VirtualBox. You can find and add it as follows:
+
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs_ss/2.png?raw=true)
+.
+.
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs_ss/3.png?raw=true)
+.
+.
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs_ss/4.png?raw=true)
+.
+.
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs_ss/5.png?raw=true)
 
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/9.png?raw=true)
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/11.png?raw=true)
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/12.png?raw=true)
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/13.png?raw=true)
+After doing all those steps it will import -roughly 5-10 mins- VM into VirtualBox. If everything is ok then you should see a window like the following. Afterwards push the green arrow to start the VM. It will open a window when VM starts, then it will become as second ss. If you cant reach here please open an issue.:
 
-It will install and open the VirtualBox. After opening the VirtualBox, you must insert the ovf file that downloaded by script.   
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs_ss/6.png?raw=true)
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/14.png?raw=true)
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/15.PNG?raw=true)
+Second ss
+
+||
+\/
+
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs_ss/8.png?raw=true)
 
 Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T then type lcmgui on the terminal opened. 
 
 
 # IMPORTANT 
 
-After making everything right you can face some privacy issues -because it is MAC-. For example if you face an error -probably you will- when you try to start the virtual machine, named "NS_ERROR_FAILURE (0x80004005)" it is because of privacy settings. I opened an issue for that. If you cant solve it by the followings please write on the issue that created for that error. You should open a menu clicking the apple logo at top left then click *System Preferences*>*Security and Privacy* or open a terminal and type 
+After making everything right you can face some privacy issues -because it is MAC-. For example if you face an error -probably you will- when you try to start the virtual machine, named "NS_ERROR_FAILURE (0x80004005)" it is because of privacy settings. I opened an issue for that. It is something like the ss below:
+
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs_ss/ns_Error1.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs_ss/ns_error2.png?raw=true)
+
+
+If you cant solve it by the followings please write on the issue that created for that error. You should open a menu clicking the apple logo at top left then click *System Preferences*>*Security and Privacy* or open a terminal and type 
 
 `open "x-apple.systempreferences:com.apple.preference.security?Privacy"` 
 
-it will navigate you to window that we want to go. Which is 
+it will navigate you to window that we want to go which is as the following. You have to give permission to Oracle-VM to solve that issue. 
+
+
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs_ss/privacy.png?raw=true)
+
+You can see another error while opening the VM which is the network error but dont worry it can be fixed by only pushing a button on the pop-up menu. It is as following:
+
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs_ss/network_error.png?raw=true)
+
+Ok it is all set now. Easy peasy! Ok may be not but beleive this was the easiest way to do it. 
+
+
+# Questions
+
+If you have any issues or questions please open an issue to ask. If it is not an issue then you can find me from the email below. 
+
+
+abdullah.bas@boun.edu.tr
+
+
 
 
 
