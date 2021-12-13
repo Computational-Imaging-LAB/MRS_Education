@@ -40,7 +40,7 @@ Now you can easily call lcmgui
 
 # If YOU DONT WANT TO MESS UP WITH THOSE STEPS LISTED BELOW try our scripts.
 
-First run the command below if you do not have conda installed if you have conda then proceed to the second step. It will wait some inputs from you, hence please wait for those inputs in front of the terminal until it is finished (5-10 mins).
+First run the command below. It will wait some inputs from you, hence please wait for those inputs in front of the terminal until it is finished (5-10 mins).
 
 `bash req-install.sh`
 
