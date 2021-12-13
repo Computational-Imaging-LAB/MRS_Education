@@ -38,7 +38,28 @@ Now you can easily call lcmgui
 
 `lcmgui`
 
-Now time is for vespa. If you dont have conda installed in your system please type:
+# If YOU DONT WANT TO MESS UP WITH THOSE STEPS LISTED BELOW try our scripts.
+
+First run the command below if you do not have conda installed if you have conda then proceed to the second step. It will wait some inputs from you, hence please wait for those inputs in front of the terminal until it is finished (5-10 mins).
+
+`bash req-install.sh`
+
+After finishing the install process close the current terminal. Open it again and first type
+
+`conda activate mrs_course`
+
+if everything seems ok then type following command to install vespa.
+
+`bash vespa-install.sh`
+
+After the installation you can check if everything is allright by typing
+
+`python -m vespa.check_dependencies`
+
+It is all for Linux. Tested on WSL and Ubuntu 20.04. If you face any issues please open an issue -recommended- or email us. 
+
+
+# Only use if you dont prefer to use our scripts -not a wise choice but it is up to you-. Now time is for vespa. If you dont have conda installed in your system please type:
 
 `wget -q --show-progress https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh`
     
