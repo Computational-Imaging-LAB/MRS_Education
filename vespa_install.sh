@@ -15,9 +15,13 @@ conda install -c conda-forge lmfit pydicom pypubsub
 pip install pygamma vespa-suite
 python -m vespa.check_dependencies
 pip install matplotlib
+sudo apt-get install mlocate
 
-
-echo "alias vespa_analysis='python $HOME/miniconda3/envs/mrs_course/lib/python3.7/site-packages/vespa/analysis/main.py'" |  sudo tee -a ~/.bashrc
-echo "alias vespa_datasim='python $HOME/miniconda3/envs/mrs_course/lib/python3.7/site-packages/vespa/datasim/main.py'" |  sudo tee -a ~/.bashrc
-echo "alias vespa_pulse='python $HOME/miniconda3/envs/mrs_course/lib/python3.7/site-packages/vespa/pulse/main.py'" |  sudo tee -a ~/.bashrc
-echo "alias vespa_simulation='python $HOME/miniconda3/envs/mrs_course/lib/python3.7/site-packages/vespa/simulation/main.py'" |  sudo tee -a ~/.bashrc
+path=`locate vespa/analysis/main.py`
+echo "alias vespa_analysis='python $path'" |  sudo tee -a ~/.bashrc
+path=`locate vespa/datasim/main.py`
+echo "alias vespa_datasim='python $path'" |  sudo tee -a ~/.bashrc
+path=`locate vespa/pulse/main.py`
+echo "alias vespa_pulse='python $path'" |  sudo tee -a ~/.bashrc
+path=`locate vespa/simulation/main.py`
+echo "alias vespa_simulation='python $path'" |  sudo tee -a ~/.bashrc
