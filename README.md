@@ -1,6 +1,6 @@
 # MRS Education
 
-# We provide installation guides of LCModel for macOS, Linux and Windows. 
+# We provide installation guides of LCModel-VESPA and other software requirements of our MRS education for macOS, Linux and Windows. 
 
 # Installations
 
