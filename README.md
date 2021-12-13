@@ -38,6 +38,35 @@ Now you can easily call lcmgui
 
 `lcmgui`
 
+Now time is for vespa. If you dont have conda installed in your system please type:
+
+`wget -q --show-progress https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh`
+    
+`bash miniconda.sh`  -- Choosing the default path is recommended. If you change the installation path please save it for next steps. 
+
+`conda --init`
+
+Then close the terminal and open new-one.
+
+`conda create --name mrs_course python=3.7`
+
+`conda activate mrs_course`
+
+`conda install numpy scipy matplotlib wxpython configobj packaging`
+
+`conda install -c conda-forge lmfit pydicom pypubsub`
+
+`pip install pygamma vespa-suite` - You must have pip install if you dont have then type `sudo apt-get install python3-pip`
+
+Now it is the time for checking the dependencies. 
+
+`python -m vespa.check_dependencies`
+
+If it shows ok then you need only to manipulate path issues.
+
+
+
+
 
 ## <h1>Windows</h1> <a name="windows"></a>
 
