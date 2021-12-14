@@ -56,7 +56,7 @@ After the installation you can check if everything is allright by typing
 
 `python -m vespa.check_dependencies`
 
-It is all for Linux. Tested on WSL and Ubuntu 20.04. If you face any issues please open an issue -recommended- or email us. 
+Now restart the terminal and start to use. It is all for Linux. Tested on WSL and Ubuntu 20.04. If you face any issues please open an issue -recommended- or email us. 
 
 
 # Only use if you dont prefer to use our scripts -not a wise choice but it is up to you-. Now time is for vespa. If you dont have conda installed in your system please type:
