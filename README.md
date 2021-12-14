@@ -61,13 +61,21 @@ Now restart the terminal and start to use. It is all for Linux. Tested on WSL an
 
 # Only use if you dont prefer to use our scripts -not a wise choice but it is up to you-. Now time is for vespa. If you dont have conda installed in your system please type:
 
-`wget -q --show-progress https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh`
+`wget -q --show-progress https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`
     
-`bash miniconda.sh`  -- Choosing the default path is recommended. If you change the installation path please save it for next steps. 
+`bash Miniconda3-latest-Linux-x86_64.sh`  -- Choosing the default path is recommended. If you change the installation path please save it for next steps. 
 
 `conda --init`
 
 Then close the terminal and open new-one.
+
+`echo "deb http://cz.archive.ubuntu.com/ubuntu bionic main universe" |  sudo tee -a /etc/apt/sources.list`
+
+`sudo apt-get update && sudo apt-get upgrade`
+
+`sudo apt install make gcc libgtk-3-dev libwebkitgtk-dev libwebkitgtk-3.0-dev libgstreamer-gl1.0-0 freeglut3 /
+                      freeglut3-dev python-gst-1.0 python3-gst-1.0 libglib2.0-dev ubuntu-restricted-extras /
+                      libgstreamer-plugins-base1.0-dev`
 
 `conda create --name mrs_course python=3.7`
 
@@ -83,10 +91,25 @@ Now it is the time for checking the dependencies.
 
 `python -m vespa.check_dependencies`
 
+`sudo apt-get install mlocate`
+
+`path=`locate vespa/analysis/main.py``
+
+`echo "alias vespa_analysis='python $path'" |  sudo tee -a ~/.bashrc`
+
+`path=`locate vespa/datasim/main.py``
+
+`echo "alias vespa_datasim='python $path'" |  sudo tee -a ~/.bashrc`
+
+`path=`locate vespa/pulse/main.py``
+
+`echo "alias vespa_pulse='python $path'" |  sudo tee -a ~/.bashrc`
+
+`path=`locate vespa/simulation/main.py``
+
+`echo "alias vespa_simulation='python $path'" |  sudo tee -a ~/.bashrc`
+
 If it shows ok then you need only to manipulate path issues.
-
-
-
 
 
 ## <h1>Windows</h1> <a name="windows"></a>
