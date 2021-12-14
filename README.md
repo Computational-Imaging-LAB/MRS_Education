@@ -235,7 +235,7 @@ Thanks for the contributions to installation part of requirements of this MRS Co
 
 Gökçe Hale Hatay
 
-Buse Buz Yağız
+Buse Buz Yaluğ
 
 
 
