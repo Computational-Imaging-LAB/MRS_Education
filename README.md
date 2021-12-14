@@ -91,6 +91,8 @@ Now it is the time for checking the dependencies.
 
 `python -m vespa.check_dependencies`
 
+If it shows ok then you need only to manipulate path issues.
+
 `sudo apt-get install mlocate`
 
 `path=`locate vespa/analysis/main.py``
@@ -109,7 +111,6 @@ Now it is the time for checking the dependencies.
 
 `echo "alias vespa_simulation='python $path'" |  sudo tee -a ~/.bashrc`
 
-If it shows ok then you need only to manipulate path issues.
 
 
 ## <h1>Windows</h1> <a name="windows"></a>
