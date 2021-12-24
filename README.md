@@ -115,7 +115,7 @@ If it shows ok then you need only to manipulate path issues.
 
 ## <h1>Windows</h1> <a name="windows"></a>
 
-*There are three ways to install on Windows. If you are lazy -as me- you can use WSL2. If you prefer virtual machine you can use windows-install.bat file to install virtualbox and other things without harming your comfort. Then few steps by your own*
+*There are three ways to install on Windows. If you are lazy -as me- you can use WSL2. If you prefer virtual machine you can use windows-install.ps1 file to install virtualbox and other things without harming your comfort. Then few steps by your own*
 *There is a third way which is to downloading all the required tools by yourself manually. But forget about it don't do please.*
 
 **The Second Way Virtual Box powered Linux**
