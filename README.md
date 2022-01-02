@@ -167,7 +167,7 @@ After that we need git and wget to run our script. Hence install them also.
 `bash mac-install.sh`
 
 
-After that push the folder icon to browse ovf file that windows-install.bat downloaded for you. It is MRS-CIL.ovf which is shown in the second ss. After push "Next-İleri" button. Then push "Import-İçe Aktar" button which is shown in following third ss. If everything is ok there will be a pop-up like in fourth ss for importing. 
+After that, push the folder icon to browse ovf file that mac-install.sh downloaded for you. It is MRS-CIL.ovf which is shown in the second ss. After push "Next-İleri" button. Then push "Import-İçe Aktar" button which is shown in following third ss. If everything is ok there will be a pop-up like in fourth ss for importing. 
 
 Step by step. Firstly, after our script finishes its job -nearly 3 hour on an average network- you will see a GUI of VirtualBox like the following:
 
