@@ -1,6 +1,6 @@
 
 
-echo "This process may take 3-5 hours (~12gb) depends on your internet connection. Wait until finish it will not output any progressbar to make things faster. There will be a prompt after finishing the download"
+echo "This process may take 3-5 hours (~12gb) depends on your internet connection. Wait until the finish. It will not output any progressbar in order to make things faster. There will be a prompt after finishing the download"
 
 
 $ProgressPreference = 'SilentlyContinue'
