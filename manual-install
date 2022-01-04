@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo "Updating your system"
+
+apt-get update && apt-get upgrade
 
 os_bit=`getconf LONG_BIT`
 
