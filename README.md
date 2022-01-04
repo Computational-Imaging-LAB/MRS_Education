@@ -125,7 +125,17 @@ If it shows ok then you need only to manipulate path issues.
 
 **The Second Way Virtual Box powered Linux**
 
-For the sake of the course we created all-set up iso file to use lcmodel on virtual box. **First of all download the zip file of this repo**. Unzip it and right-click to windows-install.ps1 and click "Run with PowerShell". It will download the iso file and the VirtualBox and run the setup. Then follow the steps showed on the following GIF.  
+For the sake of the course we created all-set up iso file to use lcmodel on virtual box. **First of all download the zip file of this repo**.
+
+Firstly download the zip file of this repo as following;
+
+![zip](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/zipdownload.gif)
+
+##
+
+##
+Now after downloading zip file unzip it and right-click to windows-install.ps1 and click "Run with PowerShell". It will download the iso file and the VirtualBox and run the setup. Then follow the steps showed on the following GIF.  
+##
 
 ![Alt Text](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/VBsetup.gif)
 
