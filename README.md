@@ -150,11 +150,17 @@ Zip dosyasını indirdikten sonra unzip ederek windows-install.ps1 dosyasına sa
 Virtual Box kurulumunu tamamladıktan sonra gerekli olan iso dosyasını Virtual Box içerisine yüklemeniz gerekmektedir. Bunu yapmak için VirtualBox programını çift tıklayarak açın. Aşağıdaki ekran görüntüsü gibi olan arayüz açılınca 
  
  1- "Dosya" butonuna tıklayın. 
+ 
  2-  Açılan menüden "İçe Aktar" seçeneğine tıklayın
+ 
  3-  İlk adımda indirdiğiniz ZIP dosyasının dizininde requested-image içerisinde ikinci ekran görüntüsünde gösterildiği gibi MRS-CIL.ovf dosyasını bulun.
+ 
  4-  Sonra "İleri" butonuna tıklayın.
+ 
  5-  3. ekran görüntüsündeki gibi "İçe Aktar" butonuna tıklayın. 
+ 
  6-  Eğer herşey doğru ise 4. ekran görüntüsü gösterilecektir.
+ 
 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/VirtualBox_ss/8.png?raw=true)
 
