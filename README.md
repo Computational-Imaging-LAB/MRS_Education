@@ -172,13 +172,13 @@ Açılan pencerede CTRL+ALT+T bastıktan sonra terminali açın. lcmgui yazdıkt
 # <h1>macOS</h1> <a name="macos"></a>
 
 
-*Here is the final OS. It will be easy don't worry. Firstly we will start by cloning the repo.*
+*İlk olarak repoyu klonlayarak başlıyoruz.*
 
-If you dont have homebrew installed then type the following;
+Eğer cihazınızda homebrew yüklü değilse aşağıdaki kodu çalıştırın;
 
 `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-After that we need git and wget to run our script. Hence install them also. 
+Sağlanan kodları çalıştırabilmek adına "git" ve "wget" kütüphanelerini yükleyin. 
 
 `brew install git` 
 
@@ -189,15 +189,13 @@ After that we need git and wget to run our script. Hence install them also.
 `cd MRS_Education`
 
 `bash mac-install.sh`
+ 
 
-
-After that, push the folder icon to browse ovf file that mac-install.sh downloaded for you. It is MRS-CIL.ovf which is shown in the second ss. After push "Next-İleri" button. Then push "Import-İçe Aktar" button which is shown in following third ss. If everything is ok there will be a pop-up like in fourth ss for importing. 
-
-Step by step. Firstly, after our script finishes its job -nearly 3 hour on an average network- you will see a GUI of VirtualBox like the following:
+İlk olarak sağladığımız kod işini bitirdikten sonra -yaklaşık 3 saat internet hızına bağlı olarak değişir- VirtualBox arayüzünü aşağıdaki gibi göreceksiniz.
 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/1.png?raw=true)
 
-After that you should import our VM into VirtualBox. You can find and add it as follows:
+Bu adımdan sonra sağladığımız sanal makineyi VirtualBox içerisinde ekleyin. Aşağıdaki arayüzdeki gibi yapılacaktır.
 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/2.png?raw=true)
 .
@@ -210,16 +208,16 @@ After that you should import our VM into VirtualBox. You can find and add it as 
 .
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/5.png?raw=true)
 
-
-After doing all those steps it will import -roughly 5-10 mins- VM into VirtualBox. If everything is ok then you should see a window like the following. Afterwards push the green arrow to start the VM. It will open a window when VM starts, then it will become as second ss. If you cant reach here please open an issue.:
+Tüm bu adımları uygulandıktan sonra sanal makineyi VirtualBox içerisine aktarın (5-10 dk). Eğer herhangi bir hata olmazsa aşağıdaki gibi bir pencere görülecektir. Daha sonra yeşil oka tıklayarak sanal makineyi çalıştırın.
+İkinci ekran görüntüsündeki gibi bir ekran açılacaktır. Açılmazsa sorunlar sayfasında aldığınız hatayı paylaşın.
 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/6.png?raw=true)
 
-Second ss
+İkinci ekran görüntüsü
 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/8.png?raw=true)
 
-Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T then type lcmgui on the terminal opened. 
+Açılan pencerede CTRL+ALT+T bastıktan sonra terminali açın. lcmgui yazdıktan sonra LCModel açılacaktır. 
 
 
 # IMPORTANT 
@@ -246,18 +244,20 @@ You can see another error while opening the VM which is the network error but do
 Ok it is all set now. Easy peasy! Ok may be not but beleive me this was the easiest way to do it. 
 
 
-# Questions
+# Sorular
 
-If you have any issues or questions please open an issue to ask. If it is not an issue then you can find me from the email below. Dont hesitate to ask anything.
+Eğer herhangi bir hata durumu oluşursa bağlantıya geçmekten çekinmeyin.
 
 Abdullah Baş
 
 abdullah.bas@boun.edu.tr
 
 
-Thanks for the contributions to installation part of requirements of this MRS Course.
+Katkılarından dolayı teşekkürler;
 
 Gökçe Hale Hatay
+
+Banu Saçlı-Bilmez
 
 Buse Buz Yaluğ
 
