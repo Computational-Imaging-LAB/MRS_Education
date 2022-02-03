@@ -1,24 +1,23 @@
-# MRS Education
+# MRS Eğitimi
 
-# We provide installation guides of LCModel-VESPA and other software requirements of our MRS education for macOS, Linux and Windows. 
+# MRS eğitimi için gereken LCModel-VESPA ve diğer yazılımların gerekliliklerini yüklemek için gereken yükleme rehberi. Rehberde macOS, Linux ve Windows için yükleme adımları gösterilmiştir.
 
-# Installations
+# Yüklemeler
 
    * [Linux Installation](#linux)
-      * LCModel key 210387309
+      * LCModel anahtarı 210387309
    * [Windows Installation](#windows)
-      * VM password 123456789
-      * LCModel key 210387309
+      * VM şifresi 123456789
+      * LCModel anahtarı 210387309
    * [macOS Installation](#macos)
-      * LCModel key 210387309
-      * VM password 123456789
+      * LCModel anahtarı 210387309
+      * VM şifresi 123456789
 
 
 
 ## <h1>Linux</h1> <a name="linux"></a>
-**Lets start with the easiest one Linux!**
 ##
-*Firstly open a new terminal. Then copy-paste the commands highlighted below respectively.*
+*Öncelikle yeni bir terminal açın ve aşağıdaki kodları sırasıyla terminale kopyalayıp çalıştırın.*
 
 `sudo apt-get install git`
 
@@ -28,43 +27,44 @@
 
 `bash manual-install`
 
-*There will be a LCModel GUI pop-upped*
+*LCModel GUI'si gözükecektir.*
 
-Then exit from that GUI after showing the plots.
+GUI gözüktükten sonra GUI penceresini kapatıp çıkın.
 
-We will set up PATH variable to reach lcmgui anywhere we want! Cool huh?
+PATH değişkenini ayarlayarak lcmgui koduna her yerden ulaşılabilecek konuma getirin.
 
 `PATH="$PATH:$HOME/.lcmodel/"`
 
 `touch  $HOME/.lcmodel/license`
 
-Yoowwza! Everything is all set-up.
-Now you can easily call lcmgui
+Yükleme başarıyla tamamlanmıştır.
+
+LCModel'ı kolayca terminale lcmgui yazarak çalıştırabilirsiniz.
 
 `lcmgui`
 
-# If YOU DONT WANT TO MESS UP WITH THOSE STEPS LISTED BELOW try our scripts.
+# Eğer  manuel yükleme aşamaları ile uğraşmak istemiyorsanız sağladığımız kodları kullanabilirsiniz. Eğer manuel yüklemek istiyorsanız bir sonraki başlığı takip edin.
 
-First run the command below. It will wait some inputs from you, hence please wait for those inputs in front of the terminal until it is finished (5-10 mins).
+Öncelikle aşağıdaki kodu çalıştırın. Yükleme esnasında terminal sizden girdi bekleyecektir. Bu nedenle bitirene kadar terminal karşısında bekleyin (5-10 dk).
 
 `bash req-install.sh`
 
-After finishing the install process close the current terminal. Open it again and first type
+Yükleme bittikten sonra açık olan terminalleri kapatın. Kapattıktan sonra tekrar açıp aşağıdaki kodu çalıştırın.
 
 `conda activate mrs_course`
 
-if everything seems ok then type following command to install vespa.
+eğer herhangi bir hata gözükmüyorsa vespayı yüklemek için aşağıdaki kodu çalıştırın. 
 
 `bash vespa-install.sh`
 
-After the installation you can check if everything is allright by typing
+Yükleme bittikten sonra yüklemeyi kontrol etmek adına aşağıdaki kodu çalıştırın.
 
 `python -m vespa.check_dependencies`
 
-Now restart the terminal and start to use. It is all for Linux. Tested on WSL and Ubuntu 20.04. If you face any issues please open an issue -recommended- or email us. 
+Terminali kapatıp açtıktan sonra kullanmaya başlayabilirsiniz. Linux için tüm yükleme adımları bu kadardır. WSL ve Ubuntu 20.04 üzerinde denenmiştir. Eğer herhangi bir hata ile karşılaşırsanız email gönderebilir ya da sorunlar sayfasından yeni bir sorun açabilirsiniz.
 
 
-# Only use if you dont prefer to use our scripts -not a wise choice but it is up to you-. Now time is for vespa. If you dont have conda installed in your system please type:
+# Eğer sağladığımız kodları kullanmadan manuel yüklemek istiyorsanız aşağıdaki kodları sırasıyla kopyalarak devam edin.
 
 `wget -q --show-progress https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`
     
@@ -72,7 +72,7 @@ Now restart the terminal and start to use. It is all for Linux. Tested on WSL an
 
 `conda --init`
 
-Then close the terminal and open new-one.
+Terminali kapatıp yeni bir terminal açın 
 
 `echo "deb http://cz.archive.ubuntu.com/ubuntu bionic main universe" |  sudo tee -a /etc/apt/sources.list`
 
@@ -92,11 +92,11 @@ Then close the terminal and open new-one.
 
 `pip install pygamma vespa-suite` - You must have pip install if you dont have then type `sudo apt-get install python3-pip`
 
-Now it is the time for checking the dependencies. 
+Vespa bağlılıklarını kontrol etmek için aşağıdaki kodu çalıştırın.
 
 `python -m vespa.check_dependencies`
 
-If it shows ok then you need only to manipulate path issues.
+Eğer herşey doğru gözüküyorsa geriye sadece dizin işlemleri kalıyor.
 
 `sudo apt-get install mlocate`
 
@@ -120,45 +120,54 @@ If it shows ok then you need only to manipulate path issues.
 
 ## <h1>Windows</h1> <a name="windows"></a>
 
-*There are three ways to install on Windows. If you are lazy -as me- you can use WSL2. If you prefer virtual machine you can use windows-install.ps1 file to install virtualbox and other things without harming your comfort. Then few steps by your own*
-*There is a third way which is to downloading all the required tools by yourself manually. But forget about it don't do please.*
+*Windows için yükleme yapmak adına sağladığımız windows-install.ps1 dosyasını kullanabilirsiniz. 
+.*
 
-**The Second Way Virtual Box powered Linux**
+**Virtual Box üzerinde Linux**
 
-For the sake of the course we created all-set up iso file to use lcmodel on virtual box. **First of all download the zip file of this repo**.
+Eğitimin daha düzenli olması adına tüm gerekliliklerin yüklü olduğu iso dosyası yaratılmıştır. 
+**İlk olarak bu reponun zip dosyasını indirin.**
 
-Firstly download the zip file of this repo as following;
+Zip dosyasını aşağıdaki GIF'de gösterildiği gibi indirebilirsiniz.
 
 ![zip](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/zipdownload.gif)
 
 ##
 
 ##
-Now after downloading zip file unzip it and right-click to windows-install.ps1 and click "Run with PowerShell". It will download the iso file and the VirtualBox and run the setup. Then follow the steps showed on the following GIF.  
+Zip dosyasını indirdikten sonra unzip ederek windows-install.ps1 dosyasına sağ tıklayıp "Powershell ile çalıştır" seçeneğine tıklayın. Bu dosya gerekli olan tüm bileşenleri yükledikten sonra setup işlemini başlatacaktır. Bu noktada setup işlemine nasıl devam edileceği ilerleyen GIF ile gösterilmiştir.
+
 ##
 
 ![Alt Text](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/VBsetup.gif)
 
 ##
 
-After setting up the Virtual Box you should load iso file into virtualbox. Find the Virtual Box in your computer it should create a shortcut file on the desktop. Double-click it. 
-After opening the VirtualBox get a deep breath and calm down you almost there!
+Virtual Box kurulumunu tamamladıktan sonra gerekli olan iso dosyasını Virtual Box içerisine yüklemeniz gerekmektedir. Bunu yapmak için VirtualBox programını çift tıklayarak açın. Aşağıdaki ekran görüntüsü gibi olan arayüz açılınca 
+ 
+ 1- "Dosya" butonuna tıklayın. 
+ 2-  Açılan menüden "İçe Aktar" seçeneğine tıklayın
+ 3-  İlk adımda indirdiğiniz ZIP dosyasının dizininde requested-image içerisinde ikinci ekran görüntüsünde gösterildiği gibi MRS-CIL.ovf dosyasını bulun.
+ 4-  Sonra "İleri" butonuna tıklayın.
+ 5-  3. ekran görüntüsündeki gibi "İçe Aktar" butonuna tıklayın. 
+ 6-  Eğer herşey doğru ise 4. ekran görüntüsü gösterilecektir.
 
-Push the "File Button-(Dosya)" and then there will be drop-down menu opened like showed in the following screenshot. Select the "Import-(İçe Aktar)-The orange arrow". 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/8.png?raw=true)
 
-After that push the folder icon to browse ovf file that windows-install.bat downloaded for you. It is MRS-CIL.ovf which is shown in the second ss. After push "Next-İleri" button. Then push "Import-İçe Aktar" button which is shown in following third ss. If everything is ok there will be a pop-up like in fourth ss for importing. 
+
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/9.png?raw=true)
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/11.png?raw=true)
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/12.png?raw=true)
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/13.png?raw=true)
 
-Yowwzaa! You made it. Now only thing is starting the VM. Open VirtualBox and start the machine like in the following by pressing "Start-Başlat- Yellow arrow". After pressing a window will open wait until that window becomes like the following second ss. 
+
+Herhangi bir sorun yoksa VM hazır hale getirilmiş demektir. Sırada kurulan sanal makineyi başlatma işlemi bulunmaktadır. Aşağıdaki 1. ekran görüntüsünde gösterildiği gibi "Başlat" tıklandığında 2. ekran görüntüsü gibi ekran gelecektir. Tüm işlemler bu kadardır.
+
 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/14.png?raw=true)
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/15.PNG?raw=true)
 
-Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T then type lcmgui on the terminal opened. 
+Açılan pencerede CTRL+ALT+T bastıktan sonra terminali açın. lcmgui yazdıktan sonra LCModel açılacaktır. 
 
 # <h1>macOS</h1> <a name="macos"></a>
 
