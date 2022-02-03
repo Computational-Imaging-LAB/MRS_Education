@@ -130,7 +130,7 @@ Eğitimin daha düzenli olması adına tüm gerekliliklerin yüklü olduğu iso 
 
 Zip dosyasını aşağıdaki GIF'de gösterildiği gibi indirebilirsiniz.
 
-![zip](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/zipdownload.gif)
+![zip](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/zipdownload.gif)
 
 ##
 
@@ -139,7 +139,7 @@ Zip dosyasını indirdikten sonra unzip ederek windows-install.ps1 dosyasına sa
 
 ##
 
-![Alt Text](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/VBsetup.gif)
+![Alt Text](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/VirtualBox_ss/VBsetup.gif)
 
 ##
 
@@ -152,20 +152,20 @@ Virtual Box kurulumunu tamamladıktan sonra gerekli olan iso dosyasını Virtual
  5-  3. ekran görüntüsündeki gibi "İçe Aktar" butonuna tıklayın. 
  6-  Eğer herşey doğru ise 4. ekran görüntüsü gösterilecektir.
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/8.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/VirtualBox_ss/8.png?raw=true)
 
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/9.png?raw=true)
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/11.png?raw=true)
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/12.png?raw=true)
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/13.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/VirtualBox_ss/9.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/VirtualBox_ss/11.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/VirtualBox_ss/12.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/VirtualBox_ss/13.png?raw=true)
 
 
 Herhangi bir sorun yoksa VM hazır hale getirilmiş demektir. Sırada kurulan sanal makineyi başlatma işlemi bulunmaktadır. Aşağıdaki 1. ekran görüntüsünde gösterildiği gibi "Başlat" tıklandığında 2. ekran görüntüsü gibi ekran gelecektir. Tüm işlemler bu kadardır.
 
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/14.png?raw=true)
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/VirtualBox_ss/15.PNG?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/VirtualBox_ss/14.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/VirtualBox_ss/15.PNG?raw=true)
 
 Açılan pencerede CTRL+ALT+T bastıktan sonra terminali açın. lcmgui yazdıktan sonra LCModel açılacaktır. 
 
@@ -195,29 +195,29 @@ After that, push the folder icon to browse ovf file that mac-install.sh download
 
 Step by step. Firstly, after our script finishes its job -nearly 3 hour on an average network- you will see a GUI of VirtualBox like the following:
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/1.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/1.png?raw=true)
 
 After that you should import our VM into VirtualBox. You can find and add it as follows:
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/2.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/2.png?raw=true)
 .
 .
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/3.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/3.png?raw=true)
 .
 .
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/4.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/4.png?raw=true)
 .
 .
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/5.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/5.png?raw=true)
 
 
 After doing all those steps it will import -roughly 5-10 mins- VM into VirtualBox. If everything is ok then you should see a window like the following. Afterwards push the green arrow to start the VM. It will open a window when VM starts, then it will become as second ss. If you cant reach here please open an issue.:
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/6.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/6.png?raw=true)
 
 Second ss
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/8.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/8.png?raw=true)
 
 Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T then type lcmgui on the terminal opened. 
 
@@ -226,8 +226,8 @@ Now you can open lcmodel from that window.Click the window then press CTRL+ALT+T
 
 After making everything right you can face some privacy issues -because it is MAC-. For example if you face an error -probably you will- when you try to start the virtual machine, named "NS_ERROR_FAILURE (0x80004005)" it is because of privacy settings. I opened an issue for that. It is something like the ss below:
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/ns_Error1.png?raw=true)
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/ns_error2.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/ns_Error1.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/ns_error2.png?raw=true)
 
 
 If you cant solve it by the followings please write on the issue that created for that error. You should open a menu clicking the apple logo at top left then click *System Preferences*>*Security and Privacy* or open a terminal and type 
@@ -237,11 +237,11 @@ If you cant solve it by the followings please write on the issue that created fo
 it will navigate you to window that we want to go which is as the following. You have to give permission to Oracle-VM to solve that issue. 
 
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/privacy.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/privacy.png?raw=true)
 
 You can see another error while opening the VM which is the network error but dont worry it can be fixed by only pushing a button on the pop-up menu. It is as following:
 
-![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/main/mrs-ss/network_error.png?raw=true)
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/network_error.png?raw=true)
 
 Ok it is all set now. Easy peasy! Ok may be not but beleive me this was the easiest way to do it. 
 
