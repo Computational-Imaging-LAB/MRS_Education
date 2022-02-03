@@ -2,6 +2,10 @@
 
 # MRS eğitimi için gereken LCModel-VESPA ve diğer yazılımların gerekliliklerini yüklemek için gereken yükleme rehberi. Rehberde macOS, Linux ve Windows için yükleme adımları gösterilmiştir.
 
+# M1 macOS için henüz destek sağlanmamaktadır. Kurulum için direkt bizimle iletişime geçin.
+
+Email: abdullah.bas@boun.edu.tr
+
 # Yüklemeler
 
    * [Linux Yüklemesi](#linux)
