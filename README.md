@@ -4,12 +4,12 @@
 
 # Yüklemeler
 
-   * [Linux Installation](#linux)
+   * [Linux Yüklemesi](#linux)
       * LCModel anahtarı 210387309
-   * [Windows Installation](#windows)
+   * [Windows Yüklemesi](#windows)
       * VM şifresi 123456789
       * LCModel anahtarı 210387309
-   * [macOS Installation](#macos)
+   * [macOS Yüklemesi](#macos)
       * LCModel anahtarı 210387309
       * VM şifresi 123456789
 
