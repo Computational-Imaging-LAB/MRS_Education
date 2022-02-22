@@ -230,29 +230,30 @@ Tüm bu adımları uygulandıktan sonra sanal makineyi VirtualBox içerisine akt
 Açılan pencerede CTRL+ALT+T bastıktan sonra terminali açın. lcmgui yazdıktan sonra LCModel açılacaktır. 
 
 
-# IMPORTANT 
+# ÖNEMLİ 
 
-After making everything right you can face some privacy issues -because it is MAC-. For example if you face an error -probably you will- when you try to start the virtual machine, named "NS_ERROR_FAILURE (0x80004005)" it is because of privacy settings. I opened an issue for that. It is something like the ss below:
+Her şeyi doğru yaptıktan sonra bazı güvenlik/gizlilik problemleriyle karşılaşabilirsiniz. Sanal makineyi kurduktan sonra "NS_ERROR_FAILURE (0x80004005)" hatasıyla karşılaşabilirsiniz. Bu durum için hatalar -issues- sekmesinde bu durum için bir post açılmış durumdadır. Aşağıda sunulan çözümler ile sorun çözülmezse hatalar kısmını yazabilirsiniz.
 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/ns_Error1.png?raw=true)
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/ns_error2.png?raw=true)
 
 
-If you cant solve it by the followings please write on the issue that created for that error. You should open a menu clicking the apple logo at top left then click *System Preferences*>*Security and Privacy* or open a terminal and type 
+Sorun çözmek için 
+*System Preferences*>*Security and Privacy* 
+ya da bir terminal açıp aşağıdaki kodu kopyalayın.
 
 `open "x-apple.systempreferences:com.apple.preference.security?Privacy"` 
 
-it will navigate you to window that we want to go which is as the following. You have to give permission to Oracle-VM to solve that issue. 
-
+Kod sizi güvenlik/gizlilik sekmesine götürecektir. Burada Oracle-VM VirtualBox için izin vermeniz gerekmektedir.
 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/privacy.png?raw=true)
 
+Ağ ile alakalı sanal makine açılırken hata ile karşılaşabilirsiniz. Açılır menüdeki tuşa tıklayarak bu hatayı çözebilirsiniz. Aşağıdaki ekran görüntüsünde gösterilmiştir;
 You can see another error while opening the VM which is the network error but dont worry it can be fixed by only pushing a button on the pop-up menu. It is as following:
 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/network_error.png?raw=true)
 
-Ok it is all set now. Easy peasy! Ok may be not but beleive me this was the easiest way to do it. 
-
+Tüm bu adımlardan sonra gerekli her şey hazır olmuş olacaktır. 
 
 # Sorular
 
