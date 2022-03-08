@@ -53,14 +53,13 @@ LCModel'ı kolayca terminale lcmgui yazarak çalıştırabilirsiniz.
 
 `bash req-install.sh`
 
+Yükleme bittikten sonra açık olan terminalleri kapatın. Kapattıktan sonra tekrar açıp aşağıdaki kodu çalıştırın.
+
+`conda activate mrs_course`
 
 eğer herhangi bir hata gözükmüyorsa vespayı yüklemek için aşağıdaki kodu çalıştırın. 
 
 `bash vespa-install.sh`
-
-Yükleme bittikten sonra açık olan terminalleri kapatın. Kapattıktan sonra tekrar açıp aşağıdaki kodu çalıştırın.
-
-`conda activate mrs_course`
 
 Daha sonra yüklemeyi kontrol etmek adına aşağıdaki kodu çalıştırın.
 
