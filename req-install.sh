@@ -17,6 +17,8 @@ if [ "$test" = "none" ]; then
     bash Miniconda3-py37_4.10.3-Linux-x86_64.sh
 
 fi
+conda create --name mrs_course python=3.7
+
 echo "***********************************************************************"
 echo "Installation is finished. Now close and open the terminal again."
 echo "***********************************************************************"
