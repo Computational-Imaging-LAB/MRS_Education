@@ -14,7 +14,7 @@ if test -f "$FILE"; then
     echo "$FILE exists. Download has been passed. What a luck!"
 else
     echo "Virtual machine files couldn't find. Download is started"
-    wget -q --show-progress "https://bounedutr-my.sharepoint.com/:u:/g/personal/abdullah_bas_boun_edu_tr/EXNeyaVOjqNFjEmA7NIWWGsBAu3lOBcGNzzmJojlURUZWQ?e=3XWHTA&download=1" -O mrs_cil.zip
+    wget -q --show-progress "https://bounedutr-my.sharepoint.com/:u:/g/personal/abdullah_bas_boun_edu_tr/ERb41oKy9i9DlWY5BFesmI8BKesME-JLtpckhqcV_ElWKQ?e=c7A8nK&download=1" -O mrs_cil.zip
 fi
 
 echo "VirtualBox image has been downloaded"
