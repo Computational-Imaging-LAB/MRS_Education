@@ -4,7 +4,7 @@ echo "This process may take 3-5 hours (~12gb) depends on your internet connectio
 
 
 $ProgressPreference = 'SilentlyContinue'
-wget  "https://bounedutr-my.sharepoint.com/:u:/g/personal/abdullah_bas_boun_edu_tr/EXNeyaVOjqNFjEmA7NIWWGsBAu3lOBcGNzzmJojlURUZWQ?e=3XWHTA&download=1" -OutFile requested.zip 
+wget  "https://bounedutr-my.sharepoint.com/:u:/g/personal/abdullah_bas_boun_edu_tr/ERb41oKy9i9DlWY5BFesmI8BKesME-JLtpckhqcV_ElWKQ?e=c7A8nK&download=1" -OutFile requested.zip 
 $ProgressPreference = 'Continue'
 
 echo "Download has finished."
