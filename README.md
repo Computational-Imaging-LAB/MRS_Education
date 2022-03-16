@@ -227,7 +227,10 @@ Tüm bu adımları uygulandıktan sonra sanal makineyi VirtualBox içerisine akt
 
 ![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/8.png?raw=true)
 
-Açılan pencerede CTRL+ALT+T bastıktan sonra terminali açın. lcmgui yazdıktan sonra LCModel açılacaktır. 
+Terminali aşağıdaki görselde olduğu gibi açabilirsiniz. Terminali açtıktan sonra kurs üzerinde gösterilen herhangi bir işlemi gerçekleştirebilirsiniz.
+
+
+![VirtualBox](https://github.com/Computational-Imaging-LAB/MRS_Education/blob/turkish/mrs-ss/MRS_TerminalMAC.png?raw=true)
 
 
 # ÖNEMLİ 
